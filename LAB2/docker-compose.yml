@@ -1,0 +1,7 @@
+services: 
+   web:
+    image: niginx
+    ports:
+     - 8000:80
+    volumes:
+     - ./html:/usr/share/niginx/html
